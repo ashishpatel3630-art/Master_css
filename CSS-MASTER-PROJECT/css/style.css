@@ -97,33 +97,75 @@ body {
 
 
 .btn {
-
     background-color: #e2af78;
-
     border: none;
-
     border-radius: 10px;
-
     padding: 12px 25px;
-
     color: #000;
-
     cursor: pointer;
-
     font-size: 16px;
-
     transition: all 0.3s ease;
 }
 
 
 .btn:hover {
-
     transform: translateY(-5px);
-
     background-color: #f4b46f;
-
     color: #fff;
 }
+#Roadmap{
+    height: 100vh;
+    padding:90px 8%;
+}
+.Roadmap_header{
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.Roadmap_header h1{
+    margin-bottom: 25px;
+}
+
+
+.roadmap_container{
+     display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.roadmap_card{
+    background-color:#e2af78;
+    padding:30px;
+    border-radius:20px;
+    transition:.4s;
+}
+.roadmap_card:hover{
+    transform:
+    translateY(-10px);
+    color: white;
+    background:#b78856;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
