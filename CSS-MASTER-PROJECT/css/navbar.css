@@ -52,3 +52,53 @@ nav ul li a:hover {
     color: #ffffff;
     transform: translateY(-2px);
 }
+
+
+.nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: #333;
+}
+
+
+@media (max-width: 560px) {
+    .header {
+        padding: 0 16px;
+        height: 64px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: #FFE1AF;
+        flex-direction: column;
+        gap: 0;
+        padding: 12px 16px;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    .header.nav-open nav ul {
+        display: flex;
+    }
+
+    .header > div { 
+        display: none;
+    }
+}

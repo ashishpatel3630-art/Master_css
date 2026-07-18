@@ -1,0 +1,41 @@
+:root{
+  --max-content-width: 1200px;
+  --gap: 16px;
+}
+
+
+.container{
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 var(--gap);
+}
+
+
+@media (max-width: 900px){
+  .grid-2{
+    display: block;
+  }
+}
+
+
+@media (max-width: 580px){
+  body{
+    font-size: 16px;
+  }
+
+  .header h1{
+    margin-right: 8px;
+  }
+
+  button{
+    padding: 8px 12px;
+  }
+}
+
+
+@media (max-width: 420px){
+  .header{
+    padding: 0 12px;
+  }
+}
