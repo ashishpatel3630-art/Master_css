@@ -1,37 +1,23 @@
 #about{
-
     padding:100px 8%;
-
 }
 
 
 .about_container{
-
     display:grid;
-
     grid-template-columns:1.2fr 1fr;
-
     gap:60px;
-
     align-items:center;
-
 }
 
 
 .about_tag{
-
     display:inline-block;
-
     padding:8px 18px;
-
     background:#bd7364;
-
     border-radius:50px;
-
     color:white;
-
     margin-bottom:20px;
-
 }
 
 
@@ -47,52 +33,33 @@
 
 
 .about_left p{
-
     color:#ffe7df;
-
     line-height:1.8;
-
     margin-bottom:35px;
-
     font-size:18px;
-
 }
 
 
 .about_stats{
-
     display:flex;
-
     gap:25px;
-
     margin-bottom:35px;
-
 }
 
 
 .stat{
-
     background:#e2af78;
-
     color:#3b211b;
-
     padding:20px;
-
     border-radius:18px;
-
     text-align:center;
-
     flex:1;
-
 }
 
 
 .stat h3{
-
     font-size:30px;
-
     margin-bottom:8px;
-
 }
 
 
@@ -123,6 +90,26 @@
     color:#3b211b;
 }
 
+#About_learn{
+     padding:10px 8%;
+     margin-bottom: 25px;
+}
+.box_both{
+    display: flex;
+    gap: 30px;
+}
+.left{
+background-color: #3b211b;
+padding:30px;
+border-radius: 12px;
+border: 1px solid #747373;
+}
+.right{
+background-color: #3b211b;
+padding:30px;
+border-radius: 12px;
+border: 1px solid #747373;
+}
 
 @media(max-width:768px){
 
