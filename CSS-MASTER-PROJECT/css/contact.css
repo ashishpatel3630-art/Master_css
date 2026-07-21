@@ -83,15 +83,3 @@ button:hover{
     color:#fff;
     transform:translateY(-3px);
 }
-
-@media(max-width:600px){
-
-    .contact-form{
-        padding:25px;
-    }
-
-    .contact-form h2{
-        font-size:28px;
-    }
-
-}
