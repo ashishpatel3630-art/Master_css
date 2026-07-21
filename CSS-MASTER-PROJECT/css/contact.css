@@ -6,7 +6,7 @@ body{
 
 .contact-section{
     padding:100px 8%;
-      background: #c07869;
+      background: #7f4a3f;
 }
 
 .contact-container{
@@ -34,7 +34,7 @@ body{
 }
 
 .contact-info p{
-    color:#94a3b8;
+    color:#ffffff;
     line-height:1.8;
     margin-bottom:40px;
 }
@@ -55,7 +55,7 @@ body{
     width:60px;
     height:60px;
      background: #7f4a3f;
-    color:#38bdf8;
+    color:#fff;
     border-radius:15px;
     display:flex;
     align-items:center;
