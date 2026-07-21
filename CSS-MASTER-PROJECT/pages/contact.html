@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/about.css">
-   <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/animations.css">
-   <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/navbar.css">
-   <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/buttons.css">
-   <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/about.css" />
+    <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/animations.css" />
+    <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/navbar.css" />
+    <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/buttons.css" />
+    <link rel="stylesheet" href="/CSS-MASTER-PROJECT/css/style.css" />
     <title>Contact</title>
-</head>
-<body>
-     <header class="header">
+  </head>
+  <body>
+    <header class="header">
       <h1>Ashu</h1>
       <button
         id="nav-toggle"
@@ -33,6 +33,43 @@
         <button>Sign Up</button>
       </div>
     </header>
-    
-</body>
+
+    <div class="container">
+      <form class="contact-form">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you.</p>
+
+        <div class="input-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="John Doe" required />
+        </div>
+
+        <div class="input-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="john@example.com" required />
+        </div>
+
+        <div class="input-group">
+          <label>Phone Number</label>
+          <input type="tel" placeholder="+91 9876543210" />
+        </div>
+
+        <div class="input-group">
+          <label>Subject</label>
+          <input type="text" placeholder="Enter subject" />
+        </div>
+
+        <div class="input-group">
+          <label>Your Message</label>
+          <textarea
+            rows="6"
+            placeholder="Write your message..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </body>
 </html>
