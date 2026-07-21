@@ -83,3 +83,37 @@ button:hover{
     color:#fff;
     transform:translateY(-3px);
 }
+
+
+
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 38px;
+  }
+
+  #home > p {
+    font-size: 17px;
+  }
+
+  .button_container {
+    flex-direction: column;
+  }
+
+  .Roadmap_header h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  #home h1 {
+    font-size: 28px;
+  }
+
+  .btn {
+    width: 200px;
+  }
+
+  section {
+    padding: 60px 5%;
+  }
+}
